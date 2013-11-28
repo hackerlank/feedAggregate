@@ -1,0 +1,2 @@
+http://www.taxpayeradvocate.irs.gov/Media-Resources/RSS-Feed
+wget -O F:\vincentko_dev\git\SpringApp\feedAggregate\src\main\resources\feed_xml\file\investorwords_term_day.xml http://feeds.feedburner.com/InvestorwordsTOD?format=xml

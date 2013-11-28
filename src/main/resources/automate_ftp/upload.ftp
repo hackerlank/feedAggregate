@@ -1,0 +1,6 @@
+open ftp1.exacttarget.com
+75013
+75013@
+cd /import
+put test.txt
+bye

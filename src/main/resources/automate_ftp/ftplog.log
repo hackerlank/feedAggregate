@@ -1,0 +1,45 @@
+ftp> open ftp1.exacttarget.com
+Connected to ftp1.exacttarget.com.
+220 Welcome to Enhanced FTP Services (ftp03)
+User (ftp1.exacttarget.com:(none)): 
+331 Password required for 75013.
+
+230 Login OK. Proceed.
+ftp> cd /downloads
+550 /downloads: No such file or folder.
+ftp> put DB_Naming_Schema.docx
+DB_Naming_Schema.docx: File not found 
+ftp> bye
+221 Service closing control connection.
+ftp> open ftp1.exacttarget.com
+Connected to ftp1.exacttarget.com.
+220 Welcome to Enhanced FTP Services (ftp01)
+User (ftp1.exacttarget.com:(none)): 
+331 Password required for 75013.
+
+230 Login OK. Proceed.
+ftp> cd /downloads
+550 /downloads: No such file or folder.
+ftp> put test.txt
+200 Command okay.
+150 Opening ASCII mode data connection for test.txt.
+226 Transfer complete. 15 bytes transferred. 15 bps.
+ftp: 15 bytes sent in 0.19Seconds 0.08Kbytes/sec.
+ftp> bye
+221 Service closing control connection.
+ftp> open ftp1.exacttarget.com
+Connected to ftp1.exacttarget.com.
+220 Welcome to Enhanced FTP Services (ftp03)
+User (ftp1.exacttarget.com:(none)): 
+331 Password required for 75013.
+
+230 Login OK. Proceed.
+ftp> cd /import
+250 Folder changed to "/import".
+ftp> put test.txt
+200 Command okay.
+150 Opening ASCII mode data connection for test.txt.
+226 Transfer complete. 15 bytes transferred. 15 bps.
+ftp: 15 bytes sent in 0.24Seconds 0.06Kbytes/sec.
+ftp> bye
+221 Service closing control connection.
